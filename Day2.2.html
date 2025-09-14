@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        background-color: red;
+    }
+    @media only screen and (max-width:175px) {
+        body {
+            background-color: blue;
+
+        }
+        .box{
+            flex-direction: column;
+        }
+    }
+    .box{
+        display: flex;
+    }
+    .boxs{
+        width: 350px;
+        height: 350px;
+        padding: 4px;
+        margin: 4px;
+        
+        background-color: green;
+    }
+
+</style>
+
+<body>
+    <div >
+        I m red!!
+
+    </div>
+    <div class="box">
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+        <div class="boxs"></div>
+    </div>
+
+</body>
+
+</html>
