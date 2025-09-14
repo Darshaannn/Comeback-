@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css varible and media </title>
+    <style>
+        :root{
+            --color:red;
+            --scolor:rgb(231, 164, 164);
+        }
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .li
+        {
+            background-color: var(--color);
+        }
+        .content{
+            background-color:var(--scolor);
+        }
+        ul{
+            display: flex;
+            
+        }
+        ul li{
+            list-style: none;
+            padding: 30px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="li">
+        <ul>
+            <li> Home</li>
+            <li> About</li>
+            <li> Profile</li>
+        </ul>
+
+    </div>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque officiis totam iusto deleniti? Cupiditate pariatur debitis officiis, numquam eius harum, ad, qui commodi sunt explicabo id facilis in tempore eum.
+
+    </div>
+    
+</body>
+</html>
