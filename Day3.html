@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --color: gray;
+            --fsize: 20px;
+            --bg: black;
+        }
+
+        * {
+            padding: 0px;
+            margin: 0px;
+
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        ul {
+            display: flex;
+
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        .nav ul li {
+            padding: 40px;
+            font-size: var(--fsize);
+            color: var(--color);
+            background-color: var(--bg);
+            border: 1px solid white;
+
+        }
+
+        main {
+            display: flex;
+            background-color: brown;
+        }
+
+        main div {
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .right {
+            background-color: aqua;
+        }
+
+        .left {
+            background-color: green;
+        }
+
+        .foot {
+            margin: 20px;
+            padding: 20px;
+            border: 4px solid pink;
+            background-color: bisque;
+            border-radius: 15px;
+
+        }
+
+        .all {
+            background-color: chocolate;
+        }
+
+        .logo {
+            background-color: darkseagreen;
+            height: 30px;
+            width: 30px;
+            right: 30px;
+            bottom: 13px;
+            position: fixed;
+            border-radius: 15px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="all">
+        <header>
+            <div class="nav">
+                <ul>
+
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div class="right">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ut numquam debitis quasi nihil? Ut
+                voluptatum iusto veritatis aspernatur excepturi! Modi deserunt eligendi eos aspernatur placeat, amet
+                iusto sapiente non!
+            </div>
+
+            <div class="left">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quaerat illo nobis numquam molestias
+                quas distinctio totam, deserunt odit, ut aspernatur. Hic pariatur dolorem reprehenderit placeat
+                voluptates, minus nobis velit.
+            </div>
+
+
+        </main>
+
+        <footer>
+            <div class="foot">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, repellendus?
+            </div>
+            <div class="logo">
+
+            </div>
+
+
+        </footer>
+    </div>
+</body>
+
+</html>
