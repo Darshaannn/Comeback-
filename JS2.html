@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Card</title>
+
+    <style>
+        .card {
+            display: flex;
+            width: 500px;
+            border: 1px solid black;
+            align-items: center;
+            margin: 10px 0;
+            padding: 5px;
+        }
+
+        .image {
+            position: relative;
+            width: 200px;
+        }
+
+        .image img {
+            width: 100%;
+            display: block;
+        }
+
+        .duration {
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+            z-index: 10;
+            background-color: #3b3a3a;
+            border-radius: 2px;
+            padding: 3px;
+            opacity: 0.9;
+            color: white;
+            font-size: 14px;
+        }
+
+        .text {
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ✅ Cards will be inserted here by JS -->
+    <div id="container"></div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
